@@ -8,7 +8,7 @@ import time
 import streamlit as st
 
 from predictor import run_prediction
-from simulation.simulator import Simulator
+from simulator import Simulator
 from dashboard import charts, components
 
 
