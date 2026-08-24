@@ -20,7 +20,7 @@ Models:
 
 from dataclasses import dataclass
 
-from simulation.node import Node
+from node import Node
 from simulation.energy import (
     solar_daylight_factor,
     get_dynamic_loads,
