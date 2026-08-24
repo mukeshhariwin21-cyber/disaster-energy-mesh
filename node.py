@@ -12,7 +12,7 @@ electrical model of one point in the network.
 """
 
 from dataclasses import dataclass, field
-from simulation.battery import Battery
+from battery import Battery
 
 SYSTEM_VOLTAGE_NOMINAL = 12.0   # 12V DC system
 AMBIENT_TEMP_BASE = 27.0        # deg C, baseline ambient temperature
