@@ -25,7 +25,8 @@ from energy import (
     solar_daylight_factor,
     get_dynamic_loads,
 )
-from control import fault_detection, load_management
+import fault_detection
+import load_management
 
 
 # ============================================================
