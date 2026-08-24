@@ -12,7 +12,7 @@ without requiring a large ML framework.
 
 from dataclasses import dataclass
 
-from simulation.energy import (
+from energy import (
     get_dynamic_loads,
     solar_daylight_factor,
 )
